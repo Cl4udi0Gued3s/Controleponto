@@ -1,0 +1,79 @@
+body {
+	background: linear-gradient(to right, white, dodgerblue ) ;
+}
+
+fieldset {
+	margin: 40px auto;
+	width: 400px;
+	height: 500px;
+	text-align: center;
+	border: 3px solid ;
+	border-image: linear-gradient(to top, white, dodgerblue, indigo) 100;
+	border-radius: 8px;
+}
+
+legend {
+	font-size: 22px;
+	font-family: Arial;
+	color: white;
+}
+
+h2 {
+	margin-top: 40px;
+	color: white;
+	font-family: Arial;
+	font-size: 16px;
+}
+
+#data {
+	text-align: center;
+	width: 200px;
+	border: 2px solid lightblue;
+	border-radius: 10px;
+	color: dodgerblue;
+	cursor: pointer;
+}
+
+.botao, #botao-enviar, #counter {
+	background: white;
+	width: 100px;
+	height: 30px;
+	border: none;
+	border-radius: 6px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 14px;
+	color: dodgerblue;
+	cursor: pointer;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.botao {
+	margin: 6px;
+}
+
+#botao-enviar {
+	width: 200px;
+}
+
+#counter {
+	width: 200px;
+	height: 40px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	border: none;
+	cursor: no-drop;
+	box-shadow: none;
+}
+
+.botao:hover, #botao-enviar:hover {
+	background: dodgerblue;
+	color: white;
+}
+
+@media (max-width: 500px) {
+	fieldset {
+		width: 260px;
+	}
+}
